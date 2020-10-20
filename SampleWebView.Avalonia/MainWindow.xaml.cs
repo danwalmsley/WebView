@@ -8,7 +8,7 @@ namespace SampleWebView.Avalonia
     {
         public MainWindow()
         {
-            WebView.OsrEnabled = false;
+            WebView.OsrEnabled = true;
             InitializeComponent();
 
             DataContext = new MainWindowViewModel();

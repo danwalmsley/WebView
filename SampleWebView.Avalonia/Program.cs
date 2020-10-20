@@ -9,6 +9,7 @@ namespace SampleWebView.Avalonia
         {
             AppBuilder.Configure<App>()
                       .UsePlatformDetect()
+                      .With(new Win32PlatformOptions{ AllowEglInitialization = true })
                       .UseReactiveUI()
                       .StartWithClassicDesktopLifetime(args);
         }
