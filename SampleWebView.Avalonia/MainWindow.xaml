@@ -14,12 +14,12 @@
                                              TintColor="{DynamicResource SystemAltHighColor}"
                                              TintOpacity="1"
                                              FallbackColor="Black"
-                                             MaterialOpacity="0.25" />
+                                             MaterialOpacity="0.45" />
             </ExperimentalAcrylicBorder.Material>
         </ExperimentalAcrylicBorder>
         <DockPanel>
 
-            <TextBox Background="Transparent" DockPanel.Dock="Top" Margin="0 0 400 0" Text="{Binding Address}">
+            <TextBox Background="Transparent" DockPanel.Dock="Top" Margin="100 0 400 0" Text="{Binding Address}">
                 <TextBox.KeyBindings>
                     <KeyBinding Gesture="Enter" Command="{Binding NavigateCommand}" />
                 </TextBox.KeyBindings>
